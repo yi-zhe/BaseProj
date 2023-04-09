@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: Base.buildSrc.buildSrc-3.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/buildSrc/build/libs/buildSrc-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

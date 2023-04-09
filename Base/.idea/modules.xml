@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Base.iml" filepath="$PROJECT_DIR$/.idea/modules/Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Base.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Base.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Base.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/Base.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/replugin-host-lib/Base.replugin-host-lib.iml" filepath="$PROJECT_DIR$/.idea/modules/replugin-host-lib/Base.replugin-host-lib.iml" />
+    </modules>
+  </component>
+</project>

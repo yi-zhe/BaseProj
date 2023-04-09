@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+*/build
+/captures
+.externalNativeBuild
+.cxx
+Base/app/src/main/assets/
+Base/app/release
+Base/app/build
+Base/buildSrc/build
+Base/replugin-host-lib/build

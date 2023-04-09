@@ -1,0 +1,29 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+
+        versionCode 2
+        versionName version
+        consumerProguardFiles 'replugin-rules.pro'
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    // 务必要加上此段话，这样默认会出Debug版AAR，会带上日志方便定位
+    defaultPublishConfig "debug"
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+}
+
+project.ext.RP_ARTIFACT_ID = 'replugin-host-lib'
+apply from: '../../rp-publish.gradle'
